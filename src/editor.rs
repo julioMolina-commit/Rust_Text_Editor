@@ -1,7 +1,3 @@
-// -- Current part of the tutorial --
-// Chapter 3: Assignment 1: Tildes
-
-
 // The Editor is now mutable:
 // Immutable means that it can be read but not modified
 // Mutable means it can be read AND modified
@@ -59,4 +55,5 @@ impl Editor { // Implements methods for Editor (Like class methods)
         disable_raw_mode().unwrap(); // Restores the usual terminal
         Ok(()) // Returns success with an empty tuple
     }
+
 }
